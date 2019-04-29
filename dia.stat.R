@@ -22,7 +22,7 @@ study.stat.tumor<-function(study.design.file){
 }
 
 
-# length可以不相同，但如果不通，length小的数据，names 完全属于另一个;
+# length可以不相同，但如果不同，length小的数据，names 完全属于另一个;
 # levels必须相同; 
 compareTwoClusterClass<-function(c1,c2){
 	
